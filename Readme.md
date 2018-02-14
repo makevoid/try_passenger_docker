@@ -7,7 +7,7 @@ Example setup of a docker container running passenger mounting a roda/rack app
 - Ruby 2.4
 - Passenger 0.9.28
 
-### Virtualhost
+#### Virtualhost
 
 See [app.vhost.conf](https://github.com/makevoid/try_passenger_docker/blob/master/config/app.vhost.conf):
 
@@ -26,9 +26,11 @@ server {
 
 ---
 
+#### Dockerfile
+
 See [Dockerfile](https://github.com/makevoid/try_passenger_docker/blob/master/Dockerfile):
 
-```Dockerfile
+```docker
 FROM phusion/passenger-ruby24:0.9.28
 
 CMD ["/sbin/my_init"]
