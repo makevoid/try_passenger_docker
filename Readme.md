@@ -28,7 +28,7 @@ server {
 
 See [Dockerfile](https://github.com/makevoid/try_passenger_docker/blob/master/Dockerfile):
 
-```docker
+```Dockerfile
 FROM phusion/passenger-ruby24:0.9.28
 
 CMD ["/sbin/my_init"]
