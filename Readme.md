@@ -9,7 +9,7 @@ Example setup of a docker container running passenger mounting a roda/rack app
 
 ### Virtualhost
 
-See [https://github.com/makevoid/try_passenger_docker/blob/master/config/app.vhost.conf](app.vhost.conf):
+See [app.vhost.conf](https://github.com/makevoid/try_passenger_docker/blob/master/config/app.vhost.conf):
 
 ```
 server {
@@ -26,7 +26,7 @@ server {
 
 ---
 
-See [https://github.com/makevoid/try_passenger_docker/blob/master/Dockerfile](Dockerfile):
+See [Dockerfile](https://github.com/makevoid/try_passenger_docker/blob/master/Dockerfile):
 
 ```
 FROM phusion/passenger-ruby24:0.9.28
